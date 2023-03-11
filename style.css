@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    position: fixed;
+    width: 100%;
+    height: 75px;
+    background-color: blueviolet;
+    z-index: 50;
+}
+.sidebar{
+    position: fixed;
+    width: 230px;
+    height: 100vh;
+    background-color: aquamarine;
+}
+.contenedor{ 
+    position: relative;
+    display: flex;
+    top: 77px;
+    margin-left: 230px;
+    width: calc(100% -230px);
+    background-color: rgb(224, 91, 97);
+}
+
+.tabla1{ 
+    position: relative;
+    width: 50%;
+    margin: 2px;
+    background: rgb(184, 237, 27);
+}
+.tabla2 {
+  position: relative;
+    width: 50%;
+    margin: 2px;   
+    background: rgb(223, 38, 210);
+}
+
+    .tabla th, td{
+   position: relative;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.tabla11 {
+     
+     position: relative;
+
+    }
+    .tabla11 th, td{
+    margin: 0;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
